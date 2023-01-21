@@ -1,0 +1,163 @@
+.container {
+    display: flex;
+    gap: 10px;
+    /* height: 100vh; */
+}
+* {
+    font-family: candara;
+}
+.nav {
+    /* border: 2px solid red; */
+    width: 150px;
+
+    padding: 10px;
+    /* background-color: #f9f9f9; */
+    background-color: #f0f3f5cb;
+}
+.mainhead {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border: 2px solid; */
+    /* height: 500px; */
+}
+.header {
+    border: 1px solid #f5eed4;
+    height: 100px;
+    background-color: #f0f3f5cb;
+}
+.header h2 {
+    margin-bottom: 0;
+}
+.toplink {
+    background-image: linear-gradient(
+        to top,
+        rgb(245, 247, 247),
+        rgb(245, 247, 247),
+        white
+    );
+    margin-bottom: 15px;
+    padding-bottom: 0;
+}
+.top2 {
+    display: flex;
+    align-items: center;
+}
+.top {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+
+.firstpara {
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+}
+.header a {
+    color: blue;
+}
+.article {
+    /* border: 1px solid; */
+    display: flex;
+    gap: 5px;
+    margin-top: 9px;
+}
+.article1 {
+    border: 1px solid #60d7d7;
+    width: 650px;
+    background-color: #c8efdf;
+
+    /* height: 400px; */
+}
+.article2 {
+    border: 1px solid #6082d7;
+    width: 512px;
+    background-color: #e5f3ed;
+    /* height: 400px; */
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav a {
+    color: blue;
+}
+.art1 {
+    background-color: aquamarine;
+}
+.img1 {
+    padding: 10px;
+    float: left;
+    /* margin-top: 18px; */
+}
+p {
+    margin-left: 5px;
+    padding: 10px;
+}
+.arth1 {
+    background-color: #c8efcb;
+    padding: 1px;
+    border: 1px solid #60d7d7;
+}
+.arth2 {
+    display: flex;
+    background-color: #cedff2;
+    padding: 1px;
+    border: 1px solid #6082d7;
+}
+.ladyimg {
+    float: right;
+    padding-top: 10px;
+    width: 100px;
+}
+.newsimg {
+    float: right;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.contribute {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid;
+    width: 78px;
+}
+.tools {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid;
+    width: 65px;
+}
+.print {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid;
+    width: 65px;
+}
+.dayimg {
+    float: right;
+    padding-top: 10px;
+}
+.end {
+    border: 2px solid #ddcef2;
+    margin-top: 5px;
+    background-color: #f1ebf8;
+}
+.end p {
+    margin-left: 430px;
+}
+
+.arth3 {
+    border: 1px solid #ddcef2;
+    background-color: #ddcef2;
+}
+.featureimg {
+    float: left;
+    padding: 5px;
+}
